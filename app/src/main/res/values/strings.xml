@@ -1,6 +1,28 @@
 <resources>
-    <string name="app_name">AppCompatExample</string>
+    <string name="app_name">Material Design Example</string>
 
-    <string name="hello_world">Hello world!</string>
+    <!-- Action Items Buttons, Menus -->
     <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- Navigation Drawer Items -->
+    <string name="navigation_item_home">Home</string>
+    <string name="navigation_item_friends">Friends</string>
+    <string name="navigation_item_messages">Messages</string>
+
+    <!-- Navigation Drawer Labels Array-->
+    <!-- Need to find a way to automate this list -->
+    <string-array name="navigation_drawer_labels">
+        <item>@string/navigation_item_home</item>
+        <item>@string/navigation_item_friends</item>
+        <item>@string/navigation_item_messages</item>
+    </string-array>
+
+    <!-- Titles ~ Same as Drawer Items, may be redundant -->
+    <string name="title_home">Home</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_messages">Messages</string>
+    
 </resources>
